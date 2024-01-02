@@ -12,7 +12,7 @@ git clone https://github.com/df123/docker_build_aria2.git
 docker build -t aria2build -f aria2build.dockerfile .
 ```
 
-完成后使用将文件复制出来
+完成后将文件复制出来
 
 ```
 docker cp [id]:/aria2/src/aria2c .
